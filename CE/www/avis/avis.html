@@ -42,11 +42,24 @@
 				<label for="email">E-mail</label> <input id="email" type="email" placeholder="Entrez votre email">
 				<br>
 
-				<h2>Message :</h2>
-				<textarea name="msg" id="msg" cols="30" rows="10" placeholder="Entrez votre message ici"></textarea>
+				<h2>Domaine d'activité :</h2>
+				<div>
+					<input type="checkbox" id="wine"> <label for="wine">Vins</label>
+					<input type="checkbox" id="beer"> <label for="beer">Bière</label>
+					<input type="checkbox" id="champagne"> <label for="champagne">Champagne</label>
+					<input type="checkbox" id="cider"> <label for="cider">Cidre</label>
+					<input type="checkbox" id="soda"> <label for="soda">Sodas</label>
+				</div>
+
+
+				<h2>Produit concerné :</h2>
+				<p>Choisissez le produit que vous voulez noter.</p>
+				<input type="file" id="prod">
 				<br>
 				<br>
-				<input type="submit" value="Envoyer votre message">
+				<hr>
+				<input type="submit" id="satisfied" value="Satisfait">
+				<input type="submit" id="unsatisfied" value="Pas satisfait">
 			</form>
 		</main>
 	</body>
