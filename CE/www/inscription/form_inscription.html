@@ -6,58 +6,98 @@
 	</head>
 	<body>
 		<header>
-			<div>
-				<a href="../index.html"><img src="../Images/Exia_Drinks_Logo.png" alt="Exia_Drinks_Logo" width="100"></a>
-			</div>
-			<aside>
-				<fieldset>
-					<aside>
+			<nav>
+				<table>
+					<td>
+						<img src="../Images/Exia_Drinks_Logo.png" alt="Exia_Drinks_Logo" width="100">
+					</td>
+					<td>
 						<a href="../index.html">Accueil</a>
-					</aside>
-					<aside>
 						<a href="../a_propos/a_propos.html">À propos</a>
-					</aside>
-					<aside>
-						<a href="../inscription/form_inscription.html">Inscription</a>
-					</aside>
-					<aside>
+						<a href="#">Inscription</a>
 						<a href="../connexion/connexion.html">Connexion</a>
-					</aside>
-					<aside>
 						<a href="../avis/avis.html">Avis</a>
-					</aside>
-					<aside>
 						<a href="../contact/contact.html">Contact</a>
-					</aside>
-				</fieldset>
-			</aside>
+					</td>
+				</table>
+			</nav>
 		</header>
 		<main>
 			<form method="get">
-				<h2>Vous êtes :</h2>
-				<label for="lastname">Nom :</label> <input id="lastname" type="text" placeholder="Entrez votre nom de famille">
-				<br>
-				<label for="firstname">Prénom :</label> <input id="firstname" type="text" placeholder="Entrez votre prénom">
-				<br>
-				<label for="civilite">Civilité :</label>
-				<select name="civilite" id="civilite">
-					<option selected value="">--Choisissez une option--</option>
-					<option value="mr">Monsieur</option>
-					<option value="mme">Madame</option>
-					<option value="msl">Mademoiselle</option>
-				</select>
-
-				<h2>Informations de connexion :</h2>
-				<label for="email">E-mail :</label> <input id="email" type="email" placeholder="Entrez votre email" required>
-				<br>
-				<label for="pwd">Mot de passe :</label> <input name="pwd" id="pwd" type="password" placeholder="Entrez votre mot de passe" maxlength="8" required>
-				<br>
-				<label for="pwd">Confirmation :</label> <input name="conf" id="conf" type="password" placeholder="Confirmez" maxlength="8" required>
-				<br>
-				<br>
-				<hr>
-				<input type="reset" value="Annuler">
-				<input type="submit" value="Valider">
+				<fieldset>
+					<legend><h1>Formulaire d'inscription</h1></legend>
+					<table>
+						<tr>
+							<td>
+								<h2>Vous êtes :</h2>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="lastname">Nom :</label>
+							</td>
+							<td>
+								<input id="lastname" type="text" placeholder="Entrez votre nom de famille">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="firstname">Prénom :</label>
+							</td>
+							<td>
+								<input id="firstname" type="text" placeholder="Entrez votre prénom">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="civilite">Civilité :</label>
+							</td>
+							<td>
+								<select name="civilite" id="civilite">
+									<option selected value="">--Choisissez une option--</option>
+									<option value="mr">Monsieur</option>
+									<option value="mme">Madame</option>
+									<option value="msl">Mademoiselle</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h2>Informations de connexion :</h2>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="email">E-mail :</label>
+							</td>
+							<td>
+								<input id="email" type="email" placeholder="Entrez votre email" required>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="pwd">Mot de passe :</label>
+							</td>
+							<td>
+								<input name="pwd" id="pwd" type="password" placeholder="Entrez votre mot de passe" maxlength="8" required>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="pwd">Confirmation :</label>
+							</td>
+							<td>
+								<input name="conf" id="conf" type="password" placeholder="Confirmez" maxlength="8" required>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="reset" value="Annuler">
+								<input type="submit" value="Valider">
+							</td>
+						</tr>
+					</table>
+				</fieldset>
 			</form>
 		</main>
 	</body>
