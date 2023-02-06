@@ -1,0 +1,36 @@
+body {
+	background-color: rgb(245, 240, 225);
+	width: 100%;
+}
+
+.page-header {
+	/* background-color: rgb(101, 226, 101); */
+	/* background-color: rgb(255, 193, 59); */
+	/* background-color: rgb(36, 75, 89); */
+	background-color: rgb(31, 45, 90);
+	width: 100%;
+}
+
+.page-header a {
+	color: rgb(255, 193, 59);
+}
+
+main header {
+	color: rgb(255, 110, 64);
+}
+
+ul {
+	color: rgb(255, 193, 59);
+	color: rgb(255, 110, 64);
+	
+}
+
+/* Combinaison intéressante :
+bleu : 1e3d59 : 36, 75, 89
+blanc : f5f0e1 : 245, 240, 225
+orange : ff6e40 : 255, 110, 64
+jaune : ffc13b : 255, 193, 59
+*/
+/* Bleu de l'icone :
+Bleu icon : 1f2d5a : 31, 45, 90
+*/
