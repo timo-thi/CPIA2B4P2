@@ -1,0 +1,123 @@
+.menu {
+	background-color: rgb(255, 193, 59);
+	position: sticky;
+	top: 0;
+}
+
+.menu a {
+	color: rgb(31, 45, 90);
+	text-decoration: none;
+}
+
+.menu a:hover {
+	background-color: rgb(255, 110, 64);
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.container div {
+	width: 50%;
+}
+
+fieldset {
+	border-radius: 5px;
+}
+
+.nav_links {
+	height: 40px;
+	background-color: rgb(255, 193, 59);
+}
+
+fieldset:hover {
+	background-color: rgb(245, 240, 190);
+}
+
+select {
+	width: 100%;
+	padding: 0.3em;
+	border: 1;
+	border-color: rgb(255, 110, 64);
+	background-color: rgb(31, 45, 90);
+	color: rgb(255, 193, 59);
+}
+
+body {
+	margin: 0px;
+	background-color: rgb(245, 240, 225);
+}
+
+input[type=text] {
+	border-color: rgb(255, 110, 64);
+	color:rgb(255, 193, 59);
+	width: 100%;
+	padding: 0.3em;
+	margin-right: 10px;
+	box-sizing: content-box;
+	background-color: rgb(31, 45, 90);
+}
+
+input[type=email], input[type=tel] {
+	border-color: rgb(255, 110, 64);
+	color:rgb(255, 193, 59);
+	padding: 0.3em;
+	margin: 0;
+	box-sizing: content-box;
+	background-color: rgb(31, 45, 90);
+}
+
+input[type=radio] > div {
+	background-color: rgb(31, 45, 90);
+	color:rgb(255, 110, 64);
+}
+
+input[type=submit] {
+	background-color: greenyellow;
+}
+
+input[type=reset] {
+	background-color: red;
+}
+
+input[type=submit]:hover {
+	background-color: rgb(red, green, blue);
+}
+
+input[type=reset]:hover {
+	background-color: rgb(255, 100, 100);
+}
+
+select:focus {
+	background-color: rgb(38, 55, 85);
+}
+
+.formbuttons input {
+	width: 48%;
+	min-width: 80px;
+	height: 30px;
+}
+
+header nav table {
+	width: 100%;
+}
+
+.hntd_left {
+	
+}
+
+.hntd_right {
+
+}
+
+/* Combinaison intéressante :
+bleu : 1e3d59 : 36, 75, 89
+blanc : f5f0e1 : 245, 240, 225
+orange : ff6e40 : 255, 110, 64
+jaune : ffc13b : 255, 193, 59
+*/
+/* Bleu de l'icone :
+Bleu icon : 1f2d5a : 31, 45, 90
+*/

@@ -2,16 +2,17 @@
 <html lang="fr">
 	<head>
 		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="facturation.css">
 		<title>CB Facturation</title>
 	</head>
 	<body>
-		<header>
+		<header class="menu">
 			<nav>
 				<table>
-					<td>
+					<td class="hntd_left">
 						<img src="../Images/Exia_Drinks_Logo.png" alt="Exia_Drinks_Logo" width="100">
 					</td>
-					<td>
+					<td class="hntd_right">
 						<a href="../index.html">Accueil</a>
 						<a href="../a_propos/a_propos.html">À propos</a>
 						<a href="../inscription/form_inscription.html">Inscription</a>
@@ -22,66 +23,68 @@
 				</table>
 			</nav>
 		</header>
+		<h1>Bienvenue chez nous</h1>
 		<main>
-			<h1>Bienvenue chez nous</h1>
-			<a href="../index.html">link</a>
-			<a href="../index.html">link</a>
-			<a href="../index.html">link</a>
 			<form method="post">
-				<fieldset>
-					<legend><h4>Fournisseur : ?</h4> </legend>
-					<section>
-						<select name="Fournisseur" id="fourn">
-							<option value="def">--Choisissez--</option>
-							<option value="1">Fournisseur 1</option>
-							<option value="2">Fournisseur 2</option>
-							<option value="3">Fournisseur 3</option>
-							<option value="4">Fournisseur 4</option>
-							<option value="5">Fournisseur 5</option>
-						</select>
-					</section>
-				</fieldset>
-				<br>
-				<section>
-					<fieldset>
-						<legend><h4>Informations : ?</h4></legend>
-						<div>
-							<input type="radio" id="pers" name="type" checked>Personnel
-							<input type="radio" id="pro" name="type">Professionnel
-						</div><br>
-						<label for="tva">N°TVA</label><br>
-						<input type="text" id="tva"><br><br>
-						<label for="name">Nom :</label><br>
-						<input type="text" id="name"><br><br>
-						<label for="fname">Prenom :</label><br>
-						<input type="text" id="fname"><br><br>
-
-						<!-- Select gender -->
-						<div>
-							<input type="radio" id="male" name="gender" checked>Male <br>
-							<input type="radio" id="female" name="gender">Female<br>
-							<input type="radio" id="other" name="gender">Other <br>
-						</div>
-						<br>
-						<label for="email">Email :</label><br>
-						<input type="email" id="email"><br><br>
-						<label for="tel">N° Téléphone :</label><br>
-						<input type="tel" id="tel"><br><br>
-						<label for="adr">Adresse :</label><br>
-						<input type="text" id="adr"><br><br>
-						<label for="reg">Région :</label><br>
-						<input type="text" id="reg"><br><br>
-						<label for="city">Ville :</label><br>
-						<input type="text" id="city"><br><br>
-						<label for="zip">Code Postal :</label><br>
-						<input type="text" id="zip"><br><br>
-						<label for="cb">Carte de paiement :</label><br>
-						<input type="text" id="cb"><br><br>
-						
-						<input type="submit" value="Valider">
-						<input type="reset" value="Réinitialiser">
-					</fieldset>
-				</section>
+				<div class="container">
+					<div>
+						<fieldset>
+							<legend><h4>Fournisseur : ?</h4> </legend>
+							<section>
+								<select name="Fournisseur" id="fourn">
+									<option value="def">--Choisissez--</option>
+									<option value="1">Fournisseur 1</option>
+									<option value="2">Fournisseur 2</option>
+									<option value="3">Fournisseur 3</option>
+									<option value="4">Fournisseur 4</option>
+									<option value="5">Fournisseur 5</option>
+								</select>
+							</section>
+						</fieldset>
+					</div>
+					<div>
+						<fieldset>
+							<legend><h4>Informations : ?</h4></legend>
+							<div>
+								<input type="radio" id="pers" name="type" checked>Personnel
+								<input type="radio" id="pro" name="type">Professionnel
+							</div><br>
+							<label for="tva">N°TVA</label><br>
+							<input type="text" id="tva"><br><br>
+							<label for="name">Nom :</label><br>
+							<input type="text" id="name"><br><br>
+							<label for="fname">Prenom :</label><br>
+							<input type="text" id="fname"><br><br>
+	
+							<!-- Select gender -->
+							<div class="radio_genre">
+								<input type="radio" id="male" name="gender" checked>Male<br>
+								<input type="radio" id="female" name="gender">Female<br>
+								<input type="radio" id="other" name="gender">Other<br>
+							</div>
+							<br>
+							<label for="email">Email :</label><br>
+							<input type="email" id="email"><br><br>
+							<label for="tel">N° Téléphone :</label><br>
+							<input type="tel" id="tel"><br><br>
+							<label for="adr">Adresse :</label><br>
+							<input type="text" id="adr"><br><br>
+							<label for="reg">Région :</label><br>
+							<input type="text" id="reg"><br><br>
+							<label for="city">Ville :</label><br>
+							<input type="text" id="city"><br><br>
+							<label for="zip">Code Postal :</label><br>
+							<input type="text" id="zip"><br><br>
+							<label for="cb">Carte de paiement :</label><br>
+							<input type="text" id="cb"><br><br>
+							
+							<div class="formbuttons">
+								<input type="reset" value="Réinitialiser">
+								<input type="submit" value="Valider">
+							</div>
+						</fieldset>
+					</div>
+				</div>
 			</form>
 		</main>
 	</body>
