@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="../index.css">
 		<title>CB Facturation</title>
+		<script src="facturation_script.js"></script>
 	</head>
 	<body>
 		<header class="menu">
@@ -25,13 +26,13 @@
 		</header>
 		<h1>Bienvenue chez nous</h1>
 		<main>
-			<form method="post">
+			<form id="fact">
 				<div class="container">
 					<div>
 						<fieldset>
 							<legend><h4>Fournisseur : ?</h4> </legend>
 							<section>
-								<select name="Fournisseur" id="fourn">
+								<select name="SelectFournisseur" id="selfourn" required>
 									<option value="def">--Choisissez--</option>
 									<option value="1">Fournisseur 1</option>
 									<option value="2">Fournisseur 2</option>
@@ -53,7 +54,7 @@
 							<input type="text" id="tva"><br><br>
 							<label for="name">Nom :</label><br>
 							<input type="text" id="name"><br><br>
-							<label for="fname">Prenom :</label><br>
+							<label for="fname">Prénom :</label><br>
 							<input type="text" id="fname"><br><br>
 	
 							<!-- Select gender -->

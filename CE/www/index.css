@@ -21,6 +21,7 @@
 
 .container div {
 	width: 50%;
+	min-width: 250px;
 }
 
 fieldset {
@@ -79,19 +80,19 @@ input[type=radio] > div {
 }
 
 input[type=submit] {
-	background-color: greenyellow;
+	background-color: rgb(142, 234, 105);
 }
 
 input[type=reset] {
-	background-color: red;
+	background-color: rgb(255, 67, 67);
 }
 
 input[type=submit]:hover {
-	background-color: rgb(red, green, blue);
+	background-color: greenyellow;
 }
 
 input[type=reset]:hover {
-	background-color: rgb(255, 100, 100);
+	background-color: red;
 }
 
 select:focus {
