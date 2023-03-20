@@ -107,8 +107,6 @@ function check(event) {
 	event.preventDefault();
 }
 
-window.onload = function() {
-	const fact_form = document.getElementById("fact");
-	// alert(fact_form)
-	fact_form.addEventListener("submit", check);
-}
+const fact_form = document.getElementById("fact");
+// alert(fact_form)
+fact_form.addEventListener("submit", check);
